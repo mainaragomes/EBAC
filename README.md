@@ -20,6 +20,7 @@ sns.lineplot(x='dia', y='venda', data=df)
 plt.savefig('gasolina.png')
 
 #Salva o código como um arquivo Python
+
 with open('gasolina.py', 'w', encoding='utf-8') as f:
     f.write('''
 import pandas as pd
